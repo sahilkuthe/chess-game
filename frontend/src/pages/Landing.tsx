@@ -17,7 +17,11 @@ export const Landing = () => {
                     </div>
 
                     <div className="pt-10 flex justify-center">
-                        
+                        <Button onClick={()=>{
+                            navigate("/game")
+                        }}>
+                            Play Online
+                        </Button>
                     </div>
                 </div>
                 

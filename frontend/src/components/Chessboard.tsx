@@ -16,6 +16,7 @@ export const Chessboard = ({board}: {
                         <div className="w-full flex justify-center h-full">
                             <div className="h-full flex justify-center flex-col">
                                 {square ? square.type: ""}
+                                <div>sahil was here</div>
                             </div>
                         </div>
                     </div>

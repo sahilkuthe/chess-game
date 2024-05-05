@@ -49,7 +49,7 @@ export class GameManager{
                 if (game) {
                     console.log("inside makemove")
                     console.log(message.move)
-                    game.makeMove(socket, message.move);
+                    game.makeMove(socket, message.payload.move);
                 }
             }
         })
